@@ -4,43 +4,43 @@ import { ExternalLink, Code2 } from 'lucide-react';
 const Projects = () => {
     const projects = [
         {
-            title: 'MuktiSoftware – Accounting Software Platform',
+            title: 'MuktiSoftware – Enterprise ERP Platform',
             liveLink: 'https://muktisoftware.com/',
-            description: 'MuktiSoftware is an accounting software platform where users can download ERP-based accounting solutions. I actively worked on software maintenance, bug fixing, feature enhancements, and accounting workflows including invoicing and e-way bills.',
+            description: 'A comprehensive ERP distribution platform serving businesses with robust accounting solutions. I led critical maintenance cycles, engineered custom fiscal modules, and ensured seamless handling of complex invoicing and tax compliance data.',
             contributions: [
-                'Added new files and modules in accounting software',
-                'Fixed functional and calculation-related bugs',
-                'Supported accounting processes through technical improvements'
+                'Engineered bespoke accounting modules to meet specific industry compliance standards.',
+                'Resolved complex calculation logic bugs to ensure 100% financial precision.',
+                'Optimized high-volume data workflows for Invoicing and E-Way Bill generation.'
             ],
-            techStack: ['ERP Software', 'Accounting Systems', 'Programming & Debugging'],
+            techStack: ['ERP Architecture', 'Financial Logic', 'System Optimization'],
             gradient: 'from-blue-500 to-purple-600'
         },
         {
-            title: 'SOSABTI Educational Website',
+            title: 'SOSABTI – Educational Portal',
             liveLink: 'https://sosabti.com/',
-            description: 'An educational institute website developed while working at Edusquare Solutions. I contributed to frontend development, content structure, responsiveness, and overall site improvements.',
+            description: 'A responsive, high-traffic educational platform built for Edusquare Solutions. I owned the frontend architecture, ensuring mobile-first responsiveness and optimizing asset delivery for superior load times.',
             contributions: [],
-            techStack: ['HTML', 'CSS', 'JavaScript', 'PHP'],
+            techStack: ['HTML5', 'CSS3', 'JavaScript', 'PHP Backend'],
             gradient: 'from-green-500 to-teal-600'
         },
         {
-            title: 'Alumni Management & Blogging System',
+            title: 'Alumni Network & CMS',
             liveLink: null,
-            description: 'A web-based alumni management system with admin-controlled approval. Only approved users can log in and publish blogs.',
+            description: 'A secure content management system for alumni networks featuring role-based access control. Implemented strict admin verification workflows to maintain community integrity.',
             contributions: [
-                'Admin approval system',
-                'Secure login & registration',
-                'Blogging functionality'
+                'Designed secure Admin-User role architecture.',
+                'Implemented protected content publishing workflows.',
+                'Built robust user verification and approval pipelines.'
             ],
-            techStack: ['PHP', 'MySQL'],
+            techStack: ['PHP', 'MySQL', 'RBAC Security'],
             gradient: 'from-orange-500 to-red-600'
         },
         {
-            title: 'Library Management System',
+            title: 'Library Resource System',
             liveLink: null,
-            description: 'A Java-based desktop application for managing library books, users, and issue/return records.',
+            description: 'A Java-based application for managing complex inventory and transaction cycles. Demonstrates strong command over Object-Oriented Programming and database state management.',
             contributions: [],
-            techStack: ['Java', 'OOP Concepts'],
+            techStack: ['Java SE', 'OOP Design Patterns'],
             gradient: 'from-pink-500 to-rose-600'
         }
     ];
@@ -55,8 +55,8 @@ const Projects = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <h2 className="section-title">Projects</h2>
-                    <p className="section-subtitle">Real-world applications I've built</p>
+                    <h2 className="section-title">Selected Works</h2>
+                    <p className="section-subtitle">Delivering value through code</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 gap-8">

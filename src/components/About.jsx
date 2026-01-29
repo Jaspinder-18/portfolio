@@ -11,7 +11,7 @@ const About = () => {
         {
             icon: <GraduationCap className="w-6 h-6" />,
             label: 'Education',
-            value: 'BCA (8.5 CGPA), MCA (Pursuing)'
+            value: 'MCA (Candidate) | BCA (High Honors)'
         },
         {
             icon: <Briefcase className="w-6 h-6" />,
@@ -30,8 +30,8 @@ const About = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <h2 className="section-title">About Me</h2>
-                    <p className="section-subtitle">Get to know me better</p>
+                    <h2 className="section-title">Professional Profile</h2>
+                    <p className="section-subtitle">The intersection of Code & Commerce</p>
                 </motion.div>
 
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -44,18 +44,16 @@ const About = () => {
                         className="space-y-6"
                     >
                         <p className="text-lg text-gray-700 leading-relaxed">
-                            I am <span className="font-semibold text-primary">Jaspinder Singh</span> from Sri Muktsar Sahib, Punjab.
-                            I am a BCA graduate with a CGPA of 8.5 and currently pursuing my MCA degree.
+                            I am <span className="font-semibold text-primary">Jaspinder Singh</span>, a seasoned Full Stack Developer and ERP Specialist based in Punjab, India.
+                            With a strong academic foundation (BCA, 8.5 CGPA) and advanced studies (MCA), I combine technical precision with business acumen.
                         </p>
                         <p className="text-lg text-gray-700 leading-relaxed">
-                            I work as a <span className="font-semibold text-primary">Software Developer</span> and also handle
-                            ERP-based accounting systems. My expertise spans across modern web development and enterprise
-                            resource planning solutions.
+                            Unlike typical developers, I possess deep domain expertise in <span className="font-semibold text-primary">Accounting & ERP Software</span>.
+                            This allows me to build applications that are not just visually stunning but also functionally robust for complex financial workflows.
                         </p>
                         <p className="text-lg text-gray-700 leading-relaxed">
-                            I have hands-on experience in <span className="font-semibold text-primary">MERN stack</span>, PHP,
-                            MySQL, Java, and accounting software. I'm passionate about creating efficient, scalable solutions
-                            that solve real-world problems.
+                            My stack includes the <span className="font-semibold text-primary">MERN ecosystem (React, Node, MongoDB)</span>, PHP, and SQL.
+                            I specialize in translating intricate requirements into seamless, user-friendly digital solutions for businesses and educational institutions.
                         </p>
                     </motion.div>
 

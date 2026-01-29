@@ -5,44 +5,44 @@ const Services = () => {
     const services = [
         {
             icon: <Globe className="w-10 h-10" />,
-            title: 'Full Stack Web Development',
-            description: 'End-to-end web application development using modern technologies and best practices.',
+            title: 'Full Stack Web Architecture',
+            description: 'Development of robust, scalable web applications using industry-standard technologies and best practices.',
             gradient: 'from-blue-500 to-cyan-500'
         },
         {
             icon: <Code className="w-10 h-10" />,
-            title: 'MERN Stack Applications',
-            description: 'Building scalable applications with MongoDB, Express.js, React, and Node.js.',
+            title: 'MERN Stack Engineering',
+            description: 'High-performance Single Page Applications (SPAs) built with React, Node.js, and MongoDB.',
             gradient: 'from-green-500 to-emerald-500'
         },
         {
             icon: <Globe className="w-10 h-10" />,
-            title: 'PHP & MySQL Websites',
-            description: 'Dynamic websites and web applications using PHP and MySQL database.',
+            title: 'Dynamic PHP Solutions',
+            description: 'Custom server-side rendering and database management for content-heavy dynamic websites.',
             gradient: 'from-purple-500 to-pink-500'
         },
         {
             icon: <Wrench className="w-10 h-10" />,
-            title: 'Website Bug Fixing & Maintenance',
-            description: 'Identifying and resolving bugs, optimizing performance, and maintaining websites.',
+            title: 'System Optimization & Fixes',
+            description: 'Critical debugging, performance tuning, and legacy code refactoring for existing applications.',
             gradient: 'from-orange-500 to-red-500'
         },
         {
             icon: <Calculator className="w-10 h-10" />,
-            title: 'Accounting Data Entry',
-            description: 'Accurate and efficient accounting data entry services for businesses.',
+            title: 'Financial Data Management',
+            description: 'Precision-focused handling of sensitive accounting data, ensuring integrity and accuracy.',
             gradient: 'from-teal-500 to-blue-500'
         },
         {
             icon: <FileSpreadsheet className="w-10 h-10" />,
-            title: 'Invoice & E-Way Bill Management',
-            description: 'Professional invoice generation and e-way bill management services.',
+            title: 'Automated Billing Systems',
+            description: 'Integration and management of digital invoicing and E-Way bill compliance workflows.',
             gradient: 'from-indigo-500 to-purple-500'
         },
         {
             icon: <Package className="w-10 h-10" />,
-            title: 'ERP Software Support',
-            description: 'Customization, maintenance, and support for ERP accounting software systems.',
+            title: 'Custom ERP Solutions',
+            description: 'Tailored modifications and module development for enterprise resource planning software.',
             gradient: 'from-rose-500 to-pink-500'
         }
     ];
@@ -57,8 +57,8 @@ const Services = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <h2 className="section-title">Services</h2>
-                    <p className="section-subtitle">What I can do for you</p>
+                    <h2 className="section-title">Value Proposition</h2>
+                    <p className="section-subtitle">How I can elevate your business</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

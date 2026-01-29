@@ -5,9 +5,10 @@ import { useEffect, useState } from 'react';
 const Hero = () => {
     const [displayText, setDisplayText] = useState('');
     const titles = [
-        'Freelance Web Developer',
-        'Programmer',
-        'Accounting & ERP Specialist'
+        'Full Stack Web Developer',
+        'ERP & Accounting Specialist',
+        'MERN Stack Engineer',
+        'Business Logic Expert'
     ];
     const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -101,7 +102,8 @@ const Hero = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.5 }}
                         >
-                            Building modern web applications and delivering reliable accounting & ERP solutions.
+                            Bridging the gap between complex business logic and modern web technology.
+                            I engineer high-performance web applications and custom ERP solutions that drive efficiency.
                         </motion.p>
 
                         <motion.div
@@ -112,7 +114,7 @@ const Hero = () => {
                         >
                             <button onClick={scrollToContact} className="btn-primary flex items-center justify-center gap-2">
                                 <Mail size={20} />
-                                Hire Me
+                                Start a Project
                             </button>
                             <button onClick={scrollToResume} className="btn-secondary flex items-center justify-center gap-2">
                                 <Download size={20} />

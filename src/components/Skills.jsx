@@ -4,27 +4,27 @@ import { Code, Database, Laptop, Calculator } from 'lucide-react';
 const Skills = () => {
     const skillCategories = [
         {
-            title: 'Frontend Development',
+            title: 'Frontend Engineering',
             icon: <Code className="w-8 h-8" />,
-            skills: ['React.js', 'HTML5', 'CSS3 / Tailwind', 'JavaScript'],
+            skills: ['React.js Architecture', 'HTML5 / Semantic Web', 'Tailwind CSS Design Systems', 'Advanced JavaScript (ES6+)'],
             color: 'from-blue-500 to-cyan-500'
         },
         {
-            title: 'Backend & Database',
+            title: 'Backend & Data Architecture',
             icon: <Database className="w-8 h-8" />,
-            skills: ['Node.js', 'Express.js', 'PHP', 'MySQL', 'MongoDB'],
+            skills: ['Node.js & Express API', 'PHP Service Logic', 'MySQL Relational Design', 'MongoDB Scalable Stores'],
             color: 'from-green-500 to-emerald-500'
         },
         {
-            title: 'Programming & Software',
+            title: 'Software & Logic Design',
             icon: <Laptop className="w-8 h-8" />,
-            skills: ['Java', 'ERP Software Customization', 'Bug Fixing & Feature Enhancement'],
+            skills: ['Java Object-Oriented Programming', 'ERP Module Customization', 'Algorithmic Bug Fixing', 'System Optimization'],
             color: 'from-purple-500 to-pink-500'
         },
         {
-            title: 'Accounting Skills',
+            title: 'Financial Domain Expertise',
             icon: <Calculator className="w-8 h-8" />,
-            skills: ['Accounting Data Entry', 'Invoice & Billing Management', 'E-Way Bill Generation', 'ERP Accounting Operations'],
+            skills: ['Accounting Workflow Automation', 'Digital Invoicing Systems', 'E-Way Bill Compliance', 'Enterprise Resource Planning (ERP)'],
             color: 'from-orange-500 to-red-500'
         }
     ];
@@ -39,8 +39,8 @@ const Skills = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <h2 className="section-title">Skills & Expertise</h2>
-                    <p className="section-subtitle">Technologies and tools I work with</p>
+                    <h2 className="section-title">Technical Arsenal</h2>
+                    <p className="section-subtitle">Expertise across the full stack</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 gap-8">

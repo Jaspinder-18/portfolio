@@ -54,8 +54,8 @@ const Contact = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <h2 className="section-title">Get In Touch</h2>
-                    <p className="section-subtitle">Let's discuss your project</p>
+                    <h2 className="section-title">Initiate Collaboration</h2>
+                    <p className="section-subtitle">Let's engineer your success</p>
                 </motion.div>
 
                 <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -68,9 +68,9 @@ const Contact = () => {
                         className="space-y-8"
                     >
                         <div>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4">Contact Information</h3>
+                            <h3 className="text-2xl font-bold text-gray-900 mb-4">Communication Channels</h3>
                             <p className="text-gray-600 mb-8">
-                                Feel free to reach out to me for freelance projects, collaborations, or just to say hello!
+                                Ready to modernize your operations? Whether you need a high-performance web application or an ERP overhaul, I am available for global freelance commissions.
                             </p>
                         </div>
 

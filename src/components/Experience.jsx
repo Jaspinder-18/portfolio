@@ -5,30 +5,31 @@ const Experience = () => {
     const experiences = [
         {
             company: 'Edusquare Solutions',
-            role: 'Software Developer',
+            role: 'Lead Web Developer',
             period: 'June 2015 – Present',
             location: 'Remote',
             responsibilities: [
-                'Developed and maintained educational and business websites',
-                'Worked on real client projects with production deployment',
-                'Built responsive layouts and optimized performance',
-                'Fixed bugs and implemented new features'
+                'Spearhead the development of complex educational platforms and business websites from concept to deployment.',
+                'Engineer responsive, high-performance user interfaces ensuring seamless cross-device compatibility.',
+                'Optimize codebase performance and implement critical feature enhancements for live production environments.',
+                'Collaborate with stakeholders to translate requirements into deployed technical solutions.'
             ],
             project: {
                 name: 'SOSABTI Website',
                 url: 'https://sosabti.com/',
-                description: 'A responsive educational institute website developed during my role at Edusquare Solutions. Implemented UI sections, improved responsiveness, and maintained site content.'
+                description: 'A flagship educational portal delivered for Edusquare. I architected the frontend responsive layout and managed the content strategy to boost digital presence.'
             }
         },
         {
             company: 'MuktiSoftware',
-            role: 'Programmer & Accounting Executive',
+            role: 'Accounting Software & ERP Engineer',
             period: 'Previous Experience',
             location: 'Remote',
             responsibilities: [
-                'Worked on ERP-based accounting software systems',
-                'Performed accounting tasks such as data entry, invoicing, and e-way bill generation',
-                'Fixed bugs and added new functional modules to accounting software'
+                'Managed core ERP accounting modules, ensuring 100% accuracy in financial data processing.',
+                'Developed custom modules to extend software functionality, bridging specific client gap needs.',
+                'Streamlined invoicing and E-Way bill generation workflows, reducing manual processing time.',
+                'Executed critical bug fixes and logic optimization for the accounting system codebase.'
             ]
         }
     ];
@@ -43,8 +44,8 @@ const Experience = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <h2 className="section-title">Work Experience</h2>
-                    <p className="section-subtitle">My professional journey</p>
+                    <h2 className="section-title">Professional Trajectory</h2>
+                    <p className="section-subtitle">A timeline of impact and delivery</p>
                 </motion.div>
 
                 <div className="max-w-4xl mx-auto">

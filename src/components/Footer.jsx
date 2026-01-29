@@ -29,7 +29,7 @@ const Footer = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <h3 className="text-2xl font-bold mb-2">Jaspinder Singh</h3>
-                        <p className="text-green-400 font-semibold text-lg">Available for Freelance Projects</p>
+                        <p className="text-green-400 font-semibold text-lg">Code that Counts. Solutions that Scale.</p>
                     </motion.div>
 
                     {/* Social Links */}
