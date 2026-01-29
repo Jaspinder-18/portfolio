@@ -6,7 +6,7 @@ const Resume = () => {
         {
             title: 'Full Professional Profile',
             description: 'Comprehensive overview combining my software engineering skills with accounting domain expertise.',
-            link: 'https://drive.google.com/file/d/1XUYqC59GIJRl2KaOwwFd6r2RPnl1QXh5/view?usp=drive_link',
+            link: '/resume/Jaspinder_Singh_Full_Profile.pdf',
             icon: <FileText className="w-10 h-10" />,
             gradient: 'from-purple-500 to-indigo-600',
             btnText: 'Download Full CV'
@@ -14,7 +14,7 @@ const Resume = () => {
         {
             title: 'Web Developer Specialist',
             description: 'Focused resume highlighting technical stack, MERN projects, and software development history.',
-            link: 'https://drive.google.com/file/d/1VfEkjCW_Vj4Mkn_dCYGb9KZVH7FRKWTn/view?usp=drive_link',
+            link: '/resume/Jaspinder_Singh_Web_Developer.pdf',
             icon: <Code className="w-10 h-10" />,
             gradient: 'from-blue-500 to-cyan-600',
             btnText: 'View Dev Resume'
@@ -22,7 +22,7 @@ const Resume = () => {
         {
             title: 'Accounting & Data Entry',
             description: 'Specialized profile showcasing ERP experience, data accuracy, and financial workflow management.',
-            link: 'https://drive.google.com/file/d/1r6TzQRC-wLBIrWovuP1CxGKaEFkesJFf/view?usp=drive_link',
+            link: '/resume/Jaspinder_Singh_Accounting_ERP.pdf',
             icon: <FileSpreadsheet className="w-10 h-10" />,
             gradient: 'from-green-500 to-teal-600',
             btnText: 'View Accounting Resume'
