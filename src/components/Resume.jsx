@@ -65,6 +65,7 @@ const Resume = () => {
 
                             <a
                                 href={resume.link}
+                                download={resume.title.replace(/\s+/g, '_') + '.pdf'}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-primary w-full flex items-center justify-center gap-2 mt-auto"
